@@ -25,7 +25,7 @@ public class CalculatorProject
                 break;
                 case '*': result = num1*num2;
                 break;
-                case '/': result = num1/num2;
+                case '/': result = (float)num1/num2;
                 break;
                 case '%': result = num1%num2;
                 break;
